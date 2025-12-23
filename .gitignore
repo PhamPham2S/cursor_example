@@ -1,0 +1,16 @@
+# 환경 변수 파일
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 데이터 파일 (선택적)
+# rates_data.json
+

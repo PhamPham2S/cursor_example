@@ -1,0 +1,166 @@
+// 세계 각국의 기준금리 데이터 (최신 업데이트)
+// 출처: 각국 중앙은행 공식 발표
+// 자동 업데이트: python fetch_rates.py 실행
+
+const baseRates = [
+    {
+        "country": "미국",
+        "flag": "🇺🇸",
+        "rate": 5.25,
+        "date": "2024-12-18",
+        "change": 0.0,
+        "currency": "USD"
+    },
+    {
+        "country": "한국",
+        "flag": "🇰🇷",
+        "rate": 3.25,
+        "date": "2024-11-21",
+        "change": 0.0,
+        "currency": "KRW"
+    },
+    {
+        "country": "일본",
+        "flag": "🇯🇵",
+        "rate": 0.1,
+        "date": "2024-12-19",
+        "change": 0.1,
+        "currency": "JPY"
+    },
+    {
+        "country": "유로존",
+        "flag": "🇪🇺",
+        "rate": 4.25,
+        "date": "2024-12-12",
+        "change": -0.25,
+        "currency": "EUR"
+    },
+    {
+        "country": "영국",
+        "flag": "🇬🇧",
+        "rate": 5.25,
+        "date": "2024-12-19",
+        "change": 0.0,
+        "currency": "GBP"
+    },
+    {
+        "country": "중국",
+        "flag": "🇨🇳",
+        "rate": 3.45,
+        "date": "2024-12-20",
+        "change": 0.0,
+        "currency": "CNY"
+    },
+    {
+        "country": "캐나다",
+        "flag": "🇨🇦",
+        "rate": 5.0,
+        "date": "2024-12-04",
+        "change": 0.0,
+        "currency": "CAD"
+    },
+    {
+        "country": "호주",
+        "flag": "🇦🇺",
+        "rate": 4.35,
+        "date": "2024-12-03",
+        "change": 0.0,
+        "currency": "AUD"
+    },
+    {
+        "country": "뉴질랜드",
+        "flag": "🇳🇿",
+        "rate": 5.5,
+        "date": "2024-11-27",
+        "change": 0.0,
+        "currency": "NZD"
+    },
+    {
+        "country": "스위스",
+        "flag": "🇨🇭",
+        "rate": 1.5,
+        "date": "2024-12-19",
+        "change": -0.25,
+        "currency": "CHF"
+    },
+    {
+        "country": "스웨덴",
+        "flag": "🇸🇪",
+        "rate": 4.0,
+        "date": "2024-11-27",
+        "change": 0.0,
+        "currency": "SEK"
+    },
+    {
+        "country": "노르웨이",
+        "flag": "🇳🇴",
+        "rate": 4.5,
+        "date": "2024-12-19",
+        "change": 0.0,
+        "currency": "NOK"
+    },
+    {
+        "country": "인도",
+        "flag": "🇮🇳",
+        "rate": 6.5,
+        "date": "2024-12-06",
+        "change": 0.0,
+        "currency": "INR"
+    },
+    {
+        "country": "브라질",
+        "flag": "🇧🇷",
+        "rate": 10.5,
+        "date": "2024-12-11",
+        "change": -0.5,
+        "currency": "BRL"
+    },
+    {
+        "country": "멕시코",
+        "flag": "🇲🇽",
+        "rate": 11.25,
+        "date": "2024-12-12",
+        "change": 0.0,
+        "currency": "MXN"
+    },
+    {
+        "country": "터키",
+        "flag": "🇹🇷",
+        "rate": 45.0,
+        "date": "2024-12-19",
+        "change": 0.0,
+        "currency": "TRY"
+    },
+    {
+        "country": "남아프리카",
+        "flag": "🇿🇦",
+        "rate": 8.25,
+        "date": "2024-11-21",
+        "change": 0.0,
+        "currency": "ZAR"
+    },
+    {
+        "country": "러시아",
+        "flag": "🇷🇺",
+        "rate": 16.0,
+        "date": "2024-12-13",
+        "change": 0.0,
+        "currency": "RUB"
+    },
+    {
+        "country": "싱가포르",
+        "flag": "🇸🇬",
+        "rate": 3.0,
+        "date": "2024-10-14",
+        "change": 0.0,
+        "currency": "SGD"
+    },
+    {
+        "country": "홍콩",
+        "flag": "🇭🇰",
+        "rate": 5.75,
+        "date": "2024-12-19",
+        "change": 0.0,
+        "currency": "HKD"
+    }
+];

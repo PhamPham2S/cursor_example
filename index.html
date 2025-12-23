@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Base Rate - 세계 기준금리</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Global Base Rate</h1>
+            <p class="subtitle">세계 각국의 기준금리를 한눈에 확인하세요</p>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="국가명으로 검색...">
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-label">평균 기준금리</span>
+                <span class="stat-value" id="avgRate">-</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">최고 기준금리</span>
+                <span class="stat-value" id="maxRate">-</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">최저 기준금리</span>
+                <span class="stat-value" id="minRate">-</span>
+            </div>
+        </div>
+
+        <div class="rates-grid" id="ratesGrid">
+            <!-- 동적으로 생성됩니다 -->
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
